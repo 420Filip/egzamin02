@@ -1,0 +1,5 @@
+
+1.SELECT imie, nazwisko FROM zawodnik WHERE id = 4
+2. SELECT zespol, punkty, grupa FROM liga ORDER BY DESC
+3. Select zawodnik.id, zawodnik.nazwisko, pozycja.nazwa FROM zawodnik JOIN pozycja ON zawodnik.pozycja_id = pozycja
+4.
