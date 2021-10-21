@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>piłka nożna</title>
-    <link rel="stylesheet" href="styl2.css">
+    <link rel="stylesheet" href="styl.css">
 </head>
 
 <body>
     <?php
-    $db = new mysqli('localhost', 'root', '', 'egzamin');
+    $db = new mysqli('localhost', 'root', '', 'egzamin2');
     ?>
     <header>
         <h3>Reprezentacja Polski w Piłce Nożnej</h3>
@@ -29,7 +29,7 @@
                 <button type="submit">Zobacz</button>
             </form>
             <img src="zad2.png" alt="piłka">
-            <p>Autor: 00000000000</p>
+            <p>Autor: Filip Chełchowski</p>
         </div>
         <div id="prawy">
             <ol>
