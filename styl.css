@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana;
+    background-color: seagreen;
+}
+h3 {
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+}
+header {
+    color: white;
+    text-align: center;
+    height: 330px;
+}
+
+main {
+    color: white;
+}
+div#podzial {
+    display: flex;
+}
+div#lewy {
+    background-color: whitesmoke;
+    width: 30%;
+    text-align: center;
+    height: 150px;
+}
+div#prawy {
+    background-color: whitesmoke;
+    width: 70%;
+    height: 150px;
+}
+div#liga {
+    display: flex;
+}
+div#druzyna {
+    color: white;
+    text-align: center;
+    width: 170px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+div#druzyna:hover {
+    color: black;
+    background-color: white;
+}
